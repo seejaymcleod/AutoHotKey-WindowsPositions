@@ -291,14 +291,18 @@ LoadLayout(slotNumber) {
                                 }
                             }
                             if (isNew) {
-                                newHwnd := ahwnd
-                                break 2
+                                style := WinGetStyle(ahwnd)
+                                if (style & 0x10000000) { ; Ensure it's a visible window
+                                    newHwnd := ahwnd
+                                    break 2
+                                }
                             }
                         }
                     }
                 }
                 
                 if (newHwnd) {
+                    Sleep(500) ; Brief pause to let the window fully render before the first move
                     WinRestore(newHwnd)
                     WinMove(pos.x, pos.y, pos.w, pos.h, newHwnd)
                     movesToApply.Push({hwnd: newHwnd, x: pos.x, y: pos.y, w: pos.w, h: pos.h})

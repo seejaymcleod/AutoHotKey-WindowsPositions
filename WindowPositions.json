@@ -1,6 +1,6 @@
 {
   "1": {
-    "ApplicationFrameHost.exe|SoundTale": { "x": 4608, "y": 0, "w": 1738, "h": 1812, "url": "", "exePath": "C:\\Windows\\System32\\ApplicationFrameHost.exe" },
+    "ApplicationFrameHost.exe|SoundTale": { "x": 4608, "y": 0, "w": 1738, "h": 1514, "url": "", "exePath": "C:\\Windows\\System32\\ApplicationFrameHost.exe" },
     "Chrome|Excalidraw Whiteboard - Google Chrome": { "x": 4608, "y": 1500, "w": 1738, "h": 1610, "url": "https://excalidraw.com/", "exePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" },
     "Chrome|Foundry Virtual Tabletop - Google Chrome": { "x": 1939, "y": 0, "w": 1910, "h": 2097, "url": "https://foundry-cj.weapuh.dev/game", "exePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" },
     "Chrome|Mishap Wheel - Google Chrome": { "x": 4608, "y": 1500, "w": 1738, "h": 1610, "url": "https://seejaymcleod.github.io/MishapClocks/index.html", "exePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" },
