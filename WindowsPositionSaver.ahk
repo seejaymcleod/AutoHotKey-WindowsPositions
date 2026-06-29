@@ -22,6 +22,47 @@ global IgnoreList := Map()
 LoadIgnoreList()
 LoadJSON()
 
+; --- TRAY MENU SETUP ---
+SetupTrayMenu()
+
+SetupTrayMenu() {
+    A_TrayMenu.Delete()
+    
+    LoadMenu := Menu()
+    Loop 9 {
+        LoadMenu.Add("Slot " . A_Index, MenuLoadLayout)
+    }
+    
+    SaveMenu := Menu()
+    Loop 9 {
+        SaveMenu.Add("Slot " . A_Index, MenuSaveLayout)
+    }
+    
+    A_TrayMenu.Add("Load Layout", LoadMenu)
+    A_TrayMenu.Add("Save Layout", SaveMenu)
+    A_TrayMenu.Add()
+    A_TrayMenu.Add("Toggle Ignore Active Window", (*) => ToggleIgnoreActiveWindow())
+    A_TrayMenu.Add("Edit Ignore List", (*) => EditIgnoreList())
+    A_TrayMenu.Add()
+    A_TrayMenu.Add("Reload Script", (*) => Reload())
+    A_TrayMenu.Add("Exit", (*) => ExitApp())
+}
+
+MenuSaveLayout(ItemName, ItemPos, MyMenu) {
+    SaveLayout(ItemPos)
+}
+
+MenuLoadLayout(ItemName, ItemPos, MyMenu) {
+    LoadLayout(ItemPos)
+}
+
+EditIgnoreList() {
+    global IgnoreFile
+    if !FileExist(IgnoreFile)
+        FileAppend("", IgnoreFile)
+    Run(IgnoreFile)
+}
+
 ; --- HOTKEY DEFINITIONS ---
 
 ; Slots 1-9
