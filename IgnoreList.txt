@@ -1,2 +1,3 @@
 Antigravity.exe
+GitHubDesktop.exe
 explorer.exe
