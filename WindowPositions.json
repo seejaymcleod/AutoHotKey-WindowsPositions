@@ -1,0 +1,29 @@
+{
+  "1": {
+    "ApplicationFrameHost.exe|SoundTale": { "x": 4608, "y": 0, "w": 1738, "h": 1812, "url": "", "exePath": "C:\\Windows\\System32\\ApplicationFrameHost.exe" },
+    "Chrome|Excalidraw Whiteboard - Google Chrome": { "x": 4608, "y": 1500, "w": 1738, "h": 1610, "url": "https://excalidraw.com/", "exePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" },
+    "Chrome|Foundry Virtual Tabletop - Google Chrome": { "x": 1939, "y": 0, "w": 1910, "h": 2097, "url": "https://foundry-cj.weapuh.dev/game", "exePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" },
+    "Chrome|Mishap Wheel - Google Chrome": { "x": 4608, "y": 1500, "w": 1738, "h": 1610, "url": "https://seejaymcleod.github.io/MishapClocks/index.html", "exePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" },
+    "Chrome|Static Dice - Google Chrome": { "x": 1184, "y": 0, "w": 772, "h": 2097, "url": "https://seejaymcleod.github.io/StaticDice/DiceRoller.html", "exePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" },
+    "Discord.exe|Session One | Wild Wild Canadians - Discord": { "x": 0, "y": 0, "w": 1200, "h": 2088, "url": "", "exePath": "C:\\Users\\Seejay\\AppData\\Local\\Discord\\app-1.0.9238\\Discord.exe" },
+    "Obsidian.exe|Nadir - SeeJayRPG - Obsidian 1.12.7": { "x": 1948, "y": 0, "w": 1897, "h": 2088, "url": "", "exePath": "C:\\Users\\Seejay\\AppData\\Local\\Programs\\Obsidian\\Obsidian.exe" },
+    "Overwolf.exe|Overwolf": { "x": 32767, "y": 32767, "w": 24, "h": 24, "url": "", "exePath": "C:\\Program Files (x86)\\Overwolf\\Overwolf.exe" },
+    "Overwolf.exe|Overwolf Quick Launcher": { "x": 114, "y": 114, "w": 20, "h": 20, "url": "", "exePath": "C:\\Program Files (x86)\\Overwolf\\Overwolf.exe" }
+  },
+  "2": {
+  },
+  "3": {
+  },
+  "4": {
+  },
+  "5": {
+  },
+  "6": {
+  },
+  "7": {
+  },
+  "8": {
+  },
+  "9": {
+  }
+}
